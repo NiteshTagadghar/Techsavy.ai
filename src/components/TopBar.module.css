@@ -1,0 +1,24 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.date-picker {
+  color: #555;
+}
+
+.actions .icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}

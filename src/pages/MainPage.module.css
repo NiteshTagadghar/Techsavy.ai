@@ -1,0 +1,25 @@
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+  }
+
+  .sideMenu {
+    width: 250px; /* Fixed width for the sidebar */
+    background-color: #f5f5f5; /* Optional: Sidebar background color */
+    height: 100%; /* Full height of the viewport */
+  }
+  
+  
+  .dashboard {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+  }
+  
